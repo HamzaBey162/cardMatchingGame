@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 18px Verdana;
+	color: #FFF;
+  background-image: url('./resimler/arkpln.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#picbox {
+	margin: 0px auto;
+	width: 640px;
+}
+
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+	padding: 20px;
+}
+
+#boxcard div {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	padding: 3px;
+	border: 2px solid #81663e;
+	cursor: pointer;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+	background-color: antiquewhite;
+	z-index: 2;
+}
+
+#boxcard div img {
+	display: none;
+	border-radius: 10px;
+	z-index: 3;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: #775829;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #775829;
+}
+#boxcard Img {
+   width: 100px;
+   height: 100px;
+
+}
+
+#startScreen {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.7); /* Arka planı blurlu hale getirme */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #00000080;
+}
+
+.yazi {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px;
+	transition: background-color 0.3s;
+}
+
+.yazi:hover {
+    background-color: #45a049;
+}
+
+#yazii{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 40px;	
+}
+
+#sira{
+	color: whitesmoke;
+	text-align: top;
+	font-size: 40px;	
+}
